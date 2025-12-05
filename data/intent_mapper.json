@@ -1,0 +1,36 @@
+[
+  {
+    "id": "about_product",
+    "name": "About Product",
+    "description": "Queries related to product details, usage, ingredients, etc.",
+    "secondary_intents": [
+      {
+        "id": "product_info",
+        "name": "Product Info",
+        "description": "General product information including benefits, ingredients, features, and specialty."
+      },
+      {
+        "id": "product_price",
+        "name": "Price & Offers",
+        "description": "Queries about the price of the product, discounts, or available offers."
+      }
+    ]
+  },
+  {
+    "id": "order_management",
+    "name": "Order Management",
+    "description": "Queries related to placing, tracking, or modifying orders.",
+    "secondary_intents": [
+      {
+        "id": "order_status",
+        "name": "Order Status",
+        "description": "Checking the status of an existing order."
+      },
+      {
+        "id": "cancel_order",
+        "name": "Cancel Order",
+        "description": "Requests to cancel an order."
+      }
+    ]
+  }
+]

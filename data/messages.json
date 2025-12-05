@@ -1,0 +1,60 @@
+[
+  {
+    "message_id": "msg_001",
+    "text": "How do I use the face cream?",
+    "history": [],
+    "timestamp": "2023-10-27T10:00:00Z"
+  },
+  {
+    "message_id": "msg_002",
+    "text": "Can I apply this twice a day?",
+    "history": [
+      {"role": "user", "content": "I bought the moisturizer."}
+    ],
+    "timestamp": "2023-10-27T10:05:00Z"
+  },
+  {
+    "message_id": "msg_003",
+    "text": "What are the ingredients?",
+    "history": [],
+    "timestamp": "2023-10-27T10:10:00Z"
+  },
+  {
+    "message_id": "msg_004",
+    "text": "Where is my order?",
+    "history": [],
+    "timestamp": "2023-10-27T10:15:00Z"
+  },
+  {
+    "message_id": "msg_005",
+    "text": "What is the recommended dosage for these pills?",
+    "history": [],
+    "timestamp": "2023-10-27T10:20:00Z"
+  },
+  {
+    "message_id": "msg_006",
+    "text": "Do I take this before or after food?",
+    "history": [
+        {"role": "user", "content": "I have the multivitamin."}
+    ],
+    "timestamp": "2023-10-27T10:25:00Z"
+  },
+  {
+    "message_id": "msg_007",
+    "text": "I want to return my order.",
+    "history": [],
+    "timestamp": "2023-10-27T10:30:00Z"
+  },
+   {
+    "message_id": "msg_008",
+    "text": "Is this product vegan?",
+    "history": [],
+    "timestamp": "2023-10-27T10:35:00Z"
+  },
+  {
+    "message_id": "msg_009",
+    "text": "Tell me about the side effects.",
+    "history": [],
+    "timestamp": "2023-10-27T10:40:00Z"
+  }
+]
