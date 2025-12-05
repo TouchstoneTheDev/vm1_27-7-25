@@ -16,6 +16,10 @@ This tutorial will guide you through setting up and running the Intent Expansion
     ```
 
 2.  **Install Dependencies**:
+    The project requires `numpy`, `scikit-learn`, `openai`, and `python-dotenv`. Install them using pip:
+
+    ```bash
+    pip install numpy scikit-learn openai python-dotenv
     The project requires `numpy`, `scikit-learn`, and `openai`. Install them using pip:
 
     ```bash
@@ -26,6 +30,18 @@ This tutorial will guide you through setting up and running the Intent Expansion
 
 The script uses OpenAI's API to generate embeddings and analyze clusters.
 
+-   **With `.env` file (Recommended)**:
+    1.  Copy the example environment file:
+        ```bash
+        cp .env.example .env
+        ```
+    2.  Open `.env` in a text editor and add your API key:
+        ```
+        OPENAI_API_KEY=sk-...
+        ```
+
+-   **With Environment Variable**:
+    Alternatively, you can set the `OPENAI_API_KEY` environment variable directly.
 -   **With OpenAI API Key**:
     Set the `OPENAI_API_KEY` environment variable.
 
