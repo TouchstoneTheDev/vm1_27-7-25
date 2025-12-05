@@ -6,6 +6,10 @@ from typing import List, Dict, Any, Optional
 from sklearn.cluster import KMeans
 from openai import OpenAI
 from dataclasses import dataclass
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
